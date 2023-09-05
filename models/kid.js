@@ -7,7 +7,7 @@ const sexEnum = {
   FEMALE: "female",
 };
 
-const regEx = /^[a-zA-Z][a-zA-Z -]*[a-zA-Z]$/;
+const regEx = /^[a-zA-Z][a-zA-Z '-]*[a-zA-Z]$/;
 
 
 const kidSchema = new Schema(
